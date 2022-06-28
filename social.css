@@ -52,3 +52,10 @@ body {
     border-radius: 30px;
     margin: 8px;
 }
+@media (max-width: 920px) {
+    #redes-sociais  {
+        float: right;
+        margin-top: 100px;
+       
+    }
+}
