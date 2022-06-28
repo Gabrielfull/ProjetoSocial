@@ -46,8 +46,11 @@ body {
     margin-top: 40px;
    
 }
-
+#redes-sociais a {
+    cursor: pointer;
+}
 #redes-sociais a img{
+    cursor: pointer;
     width: 50px;
     border-radius: 30px;
     margin: 8px;
@@ -55,7 +58,18 @@ body {
 @media (max-width: 920px) {
     #redes-sociais  {
         float: right;
-        margin-top: 130px;
+        margin-top: 140px;
+        margin-right: 5px;
        
+    }
+    #telefone {
+        position: absolute;
+        top: 50%;
+        left: 47%;
+        transform: translate(-50%, -50%);
+        width: 350px;
+        height: 625px;
+        background-color: blue;
+        background: url(pacote-d013/imagens/frame-iphone.png) no-repeat;
     }
 }
